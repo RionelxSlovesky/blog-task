@@ -3,10 +3,10 @@
 const Sports = ({topic}) => {
 
   return (
-    <div className="md:flex md:gap-3">
-      <div className="md:w-[50%]">
-        <div>
-          {topic?.slice(0, 3).map((topic) => (
+    <div className="md:px-6">
+      <div className="md:w-[100%]">
+        <div className="md:flex gap-3">
+          {topic?.slice(0, 2).map((topic) => (
             <div
               key={topic?.image}
               className="relative
@@ -18,7 +18,7 @@ const Sports = ({topic}) => {
               ></img>
               <div
                 className="absolute top-0 py-12 px-10 bg-black opacity-75 text-white
-                w-[100%] h-80 flex flex-col
+                w-[100%] h-80
                 "
               >
                 <div>
@@ -32,9 +32,9 @@ const Sports = ({topic}) => {
         </div>
       </div>
 
-      <div className="md:w-[50%]">
-        <div>
-          {topic?.slice(3).map((topic) => (
+      <div className="md:w-[100%]">
+        <div className="md:flex gap-3">
+          {topic?.slice(2).map((topic) => (
             <div
               key={topic?.image}
               className="relative
@@ -46,7 +46,7 @@ const Sports = ({topic}) => {
               ></img>
               <div
                 className="absolute top-0 py-12 px-10 bg-black opacity-75 text-white
-                w-[100%] h-80 flex flex-col
+                w-[100%] h-80
                 "
               >
                 <div>

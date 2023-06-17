@@ -3,9 +3,9 @@ import { TabPanel, useTabs } from "react-headless-tabs";
 import TabSelector from "./TabSelector/TabSelector";
 import BlogSections from "./BlogSections/BlogSections";
 import { useEffect, useState } from "react";
+import './Blog.css'
 
 const Blog = () => {
-
   const [sports, setSports] = useState([]);
 
   useEffect(() => {
@@ -13,8 +13,6 @@ const Blog = () => {
       .then((res) => res.json())
       .then((data) => setSports(data));
   }, [sports]);
-
-
 
   const [selectedTab, setSelectedTab] = useTabs([
     "sports",
@@ -24,7 +22,7 @@ const Blog = () => {
   ]);
 
   return (
-    <section>
+    <section className="py-16 blog-section">
       <SectionTitle title="Blog"></SectionTitle>
       <div>
         <nav className="flex justify-center">
@@ -51,8 +49,12 @@ const Blog = () => {
           <TabPanel hidden={selectedTab !== "sports"}>
             <BlogSections topic={sports}></BlogSections>
           </TabPanel>
-          <TabPanel hidden={selectedTab !== "entertainment"}>Entertainment</TabPanel>
-          <TabPanel hidden={selectedTab !== "health"}>Health</TabPanel>
+          <TabPanel hidden={selectedTab !== "entertainment"}>
+            <BlogSections topic={sports}></BlogSections>
+          </TabPanel>
+          <TabPanel hidden={selectedTab !== "health"}>
+            <BlogSections topic={sports}></BlogSections>
+          </TabPanel>
         </div>
       </div>
     </section>

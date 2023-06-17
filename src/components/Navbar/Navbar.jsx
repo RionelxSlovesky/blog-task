@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="flex items-center justify-center py-6 bg-cyan-500 text-white px-[2rem] text-xl">
+      <header className="flex items-center justify-center py-6 bg-cyan-500 text-white px-8 text-xl">
           <Link to="/" className="me-auto">
             <h3>Blog</h3>
           </Link>
@@ -44,10 +44,10 @@ const Navbar = () => {
         </button>
       </header>
       <div className="flex text-lg">
-        <div className="flex-grow py-2 px-4 bg-yellow-600 text-white">
+        <div className="flex-grow py-2 px-8 bg-red-500 text-white">
           Breaking:
         </div>
-        <Marquee>
+        <Marquee className="bg-gray-100">
           I can be a React component, multiple React components, or just some
           text.
         </Marquee>
