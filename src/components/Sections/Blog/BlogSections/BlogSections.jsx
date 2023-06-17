@@ -23,6 +23,7 @@ const Sports = ({topic}) => {
               >
                 <div>
                   <h4 className="text-xl">{topic?.title}</h4>
+                  <h4 className="text-lg text-gray-200">{topic?.author}</h4>
                   <h4 className="text-sm text-gray-200">{topic?.date}</h4>
                   <p>{topic?.description} ...read more</p>
                 </div>
@@ -51,6 +52,7 @@ const Sports = ({topic}) => {
               >
                 <div>
                   <h4 className="text-xl">{topic?.title}</h4>
+                  <h4 className="text-lg text-gray-200">{topic?.author}</h4>
                   <h4 className="text-sm text-gray-200">{topic?.date}</h4>
                   <p>{topic?.description} ...read more</p>
                 </div>
