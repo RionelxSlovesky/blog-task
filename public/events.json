@@ -1,0 +1,39 @@
+[
+    {
+      "image": "https://i.ibb.co/L5znbvr/tech-conference.jpg",
+      "title": "Tech Conference",
+      "description": "Join the biggest tech conference of the year. Explore the latest advancements in technology.",
+      "date": "2023-06-20"
+    },
+    {
+      "image": "https://i.ibb.co/RHPnXy3/music-festival.webp",
+      "title": "Music Festival",
+      "description": "Experience the ultimate music festival featuring top artists from around the world.",
+      "date": "2023-07-10"
+    },
+    {
+      "image": "https://i.ibb.co/fN9FGf7/art-exhibition.webp",
+      "title": "Art Exhibition",
+      "description": "Discover a mesmerizing collection of artworks from renowned artists.",
+      "date": "2023-08-05"
+    },
+    {
+      "image": "https://i.ibb.co/F773JtF/charity-gala.jpg",
+      "title": "Charity Gala",
+      "description": "Support a noble cause at our annual charity gala event. Together, we can make a difference.",
+      "date": "2023-09-15"
+    },
+    {
+      "image": "https://i.ibb.co/BZ0JJBf/sports-festival.jpg",
+      "title": "Sports Tournament",
+      "description": "Witness thrilling sports action at our international sports tournament.",
+      "date": "2023-10-20"
+    },
+    {
+      "image": "https://i.ibb.co/hdBzXw2/film-festival.jpg",
+      "title": "Film Festival",
+      "description": "Celebrate the art of cinema at our prestigious international film festival.",
+      "date": "2023-11-05"
+    }
+  ]
+  
