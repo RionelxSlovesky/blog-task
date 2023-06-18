@@ -31,7 +31,6 @@ const Blog = () => {
     "sports",
     "entertainment",
     "health",
-    "billing",
   ]);
 
   return (

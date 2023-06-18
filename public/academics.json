@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Assistant Professor of Computer Science",
+      "description": "Seeking a dedicated and experienced individual to join our computer science department. Apply by June 30th. Joining date: August 1st.",
+      "applicationDeadline": "2023-06-30",
+      "joiningDate": "2023-08-01"
+    },
+    {
+      "title": "Lecturer in Mathematics",
+      "description": "We are looking for a passionate mathematics lecturer to inspire and educate our students. Apply by July 15th. Joining date: September 1st.",
+      "applicationDeadline": "2023-07-15",
+      "joiningDate": "2023-09-01"
+    },
+    {
+      "title": "Research Associate in Biology",
+      "description": "Join our research team to contribute to cutting-edge biological studies. Apply by August 10th. Joining date: October 1st.",
+      "applicationDeadline": "2023-08-10",
+      "joiningDate": "2023-10-01"
+    },
+    {
+      "title": "Professor of English Literature",
+      "description": "We are seeking a distinguished scholar in English literature to lead our department. Apply by September 5th. Joining date: January 1st.",
+      "applicationDeadline": "2023-09-05",
+      "joiningDate": "2024-01-01"
+    },
+    {
+      "title": "Assistant Professor of Chemistry",
+      "description": "Join our dynamic chemistry department and contribute to innovative research and teaching. Apply by October 15th. Joining date: January 15th.",
+      "applicationDeadline": "2023-10-15",
+      "joiningDate": "2024-01-15"
+    },
+    {
+      "title": "Visiting Faculty in Economics",
+      "description": "We are looking for a visiting faculty member in economics for the upcoming academic year. Apply by November 20th. Joining date: January 30th.",
+      "applicationDeadline": "2023-11-20",
+      "joiningDate": "2024-01-30"
+    },
+    {
+      "title": "Assistant Professor of Psychology",
+      "description": "Join our psychology department and contribute to both teaching and research endeavors. Apply by December 10th. Joining date: February 15th.",
+      "applicationDeadline": "2023-12-10",
+      "joiningDate": "2024-02-15"
+    }
+]
+  
