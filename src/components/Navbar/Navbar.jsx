@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "./Navbar.css";
 import Marquee from "react-fast-marquee";
+import logo from "../../../public/android-chrome-192x192.png";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -14,9 +15,10 @@ const Navbar = () => {
   return (
     <>
       <header className="flex items-center justify-center py-6 bg-cyan-500 text-white px-8 text-xl">
-          <Link to="/" className="me-auto">
-            <h3>Blog</h3>
-          </Link>
+        <img className="w-8 mr-4" src={logo} alt="" />
+        <Link to="/" className="me-auto">
+          <h3>Blog</h3>
+        </Link>
         <nav ref={navRef}>
           <Link className="mx-[2em] hover:text-yellow-500" to="/">
             About
@@ -48,10 +50,18 @@ const Navbar = () => {
           Breaking:
         </div>
         <Marquee pauseOnHover className="bg-gray-100">
-          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Parliament calls on NATO to invite Ukraine to join the alliance.</Link>
-          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Rare earthquake damages French homes, schools and churches</Link>
-          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Harry and Meghan: Spotify podcast deal with couple ends</Link>
-          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Trump defiant after pleading not guilty in classified documents case</Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">
+            Parliament calls on NATO to invite Ukraine to join the alliance.
+          </Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">
+            Rare earthquake damages French homes, schools and churches
+          </Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">
+            Harry and Meghan: Spotify podcast deal with couple ends
+          </Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">
+            Trump defiant after pleading not guilty in classified documents case
+          </Link>
         </Marquee>
       </div>
     </>
