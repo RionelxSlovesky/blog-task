@@ -3,7 +3,6 @@ import { TabPanel, useTabs } from "react-headless-tabs";
 import TabSelector from "./TabSelector/TabSelector";
 import BlogSections from "./BlogSections/BlogSections";
 import { useEffect, useState } from "react";
-import './Blog.css'
 
 const Blog = () => {
   const [sports, setSports] = useState([]);

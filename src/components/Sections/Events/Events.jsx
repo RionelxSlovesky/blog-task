@@ -4,6 +4,7 @@ import "@egjs/react-flicking/dist/flicking.css";
 // Or, if you have to support IE9
 import "@egjs/react-flicking/dist/flicking-inline.css";
 import { useEffect, useState } from "react";
+import './Events.css'
 
 const Events = () => {
   const [events, setEvents] = useState([]);
@@ -14,7 +15,7 @@ const Events = () => {
   }, []);
 
   return (
-    <section className="py-16">
+    <section className="py-16 events-section">
       <SectionTitle title="Events"></SectionTitle>
 
       <Flicking
