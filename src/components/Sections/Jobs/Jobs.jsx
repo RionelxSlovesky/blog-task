@@ -5,14 +5,20 @@ import { useEffect, useState } from "react";
 import JobSections from "./JobSections/JobSections";
 
 const Jobs = () => {
-
-  const [academics, setAcademics] = useState([])
+  const [academics, setAcademics] = useState([]);
+  const [medical, setMedical] = useState([]);
 
   useEffect(() => {
-    fetch('academics.json')
-    .then(res => res.json())
-    .then(data => setAcademics(data))
-  },[academics])
+    fetch("academics.json")
+      .then((res) => res.json())
+      .then((data) => setAcademics(data));
+  }, [academics]);
+
+  useEffect(() => {
+    fetch("medical.json")
+      .then((res) => res.json())
+      .then((data) => setMedical(data));
+  }, [medical]);
 
   const [selectedTab, setSelectedTab] = useTabs([
     "academics",
@@ -49,10 +55,10 @@ const Jobs = () => {
             <JobSections jobs={academics}></JobSections>
           </TabPanel>
           <TabPanel hidden={selectedTab !== "medical"}>
-            
+            <JobSections jobs={medical}></JobSections>
           </TabPanel>
           <TabPanel hidden={selectedTab !== "engineering"}>
-            
+            <JobSections jobs={medical}></JobSections>
           </TabPanel>
         </div>
       </div>

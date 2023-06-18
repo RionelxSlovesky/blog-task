@@ -48,10 +48,10 @@ const Navbar = () => {
           Breaking:
         </div>
         <Marquee pauseOnHover className="bg-gray-100">
-          <Link className="mr-28 text-gray-500 hover:text-gray-700">Parliament calls on NATO to invite Ukraine to join the alliance.</Link>
-          <Link className="mr-28 text-gray-500 hover:text-gray-700">Rare earthquake damages French homes, schools and churches</Link>
-          <Link className="mr-28 text-gray-500 hover:text-gray-700">Harry and Meghan: Spotify podcast deal with couple ends</Link>
-          <Link className="mr-28 text-gray-500 hover:text-gray-700">Trump defiant after pleading not guilty in classified documents case</Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Parliament calls on NATO to invite Ukraine to join the alliance.</Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Rare earthquake damages French homes, schools and churches</Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Harry and Meghan: Spotify podcast deal with couple ends</Link>
+          <Link className="mr-28 text-gray-500 hover:text-cyan-700">Trump defiant after pleading not guilty in classified documents case</Link>
         </Marquee>
       </div>
     </>

@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Medical Officer",
+      "description": "Join our medical team and provide quality healthcare to patients. Apply by June 30th. Joining date: August 1st.",
+      "applicationDeadline": "2023-06-30",
+      "joiningDate": "2023-08-01"
+    },
+    {
+      "title": "Nurse Practitioner",
+      "description": "We are seeking a skilled nurse practitioner to join our healthcare facility. Apply by July 15th. Joining date: September 1st.",
+      "applicationDeadline": "2023-07-15",
+      "joiningDate": "2023-09-01"
+    },
+    {
+      "title": "Medical Research Scientist",
+      "description": "Join our research team and contribute to groundbreaking medical research. Apply by August 10th. Joining date: October 1st.",
+      "applicationDeadline": "2023-08-10",
+      "joiningDate": "2023-10-01"
+    },
+    {
+      "title": "Clinical Psychologist",
+      "description": "We are looking for a clinical psychologist to provide therapy and counseling services. Apply by September 5th. Joining date: January 1st.",
+      "applicationDeadline": "2023-09-05",
+      "joiningDate": "2024-01-01"
+    },
+    {
+      "title": "Pharmacist",
+      "description": "Join our pharmacy team and ensure safe and effective medication use. Apply by October 15th. Joining date: January 15th.",
+      "applicationDeadline": "2023-10-15",
+      "joiningDate": "2024-01-15"
+    },
+    {
+      "title": "Medical Lab Technologist",
+      "description": "We are seeking a skilled lab technologist to perform diagnostic tests and analyze results. Apply by November 20th. Joining date: January 30th.",
+      "applicationDeadline": "2023-11-20",
+      "joiningDate": "2024-01-30"
+    },
+    {
+      "title": "Radiologist",
+      "description": "Join our radiology department and provide accurate interpretations of medical images. Apply by December 10th. Joining date: February 15th.",
+      "applicationDeadline": "2023-12-10",
+      "joiningDate": "2024-02-15"
+    }
+  ]
+  
