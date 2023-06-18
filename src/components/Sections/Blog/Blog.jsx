@@ -7,12 +7,26 @@ import './Blog.css'
 
 const Blog = () => {
   const [sports, setSports] = useState([]);
+  const [entertainment, setEntertainment] = useState([]);
+  const [health, setHealth] = useState([]);
 
   useEffect(() => {
     fetch("sports.json")
       .then((res) => res.json())
       .then((data) => setSports(data));
   }, [sports]);
+
+  useEffect(() => {
+    fetch("entertainment.json")
+      .then((res) => res.json())
+      .then((data) => setEntertainment(data));
+  }, [entertainment]);
+
+  useEffect(() => {
+    fetch("health.json")
+      .then((res) => res.json())
+      .then((data) => setHealth(data));
+  }, [health]);
 
   const [selectedTab, setSelectedTab] = useTabs([
     "sports",
@@ -50,10 +64,10 @@ const Blog = () => {
             <BlogSections topic={sports}></BlogSections>
           </TabPanel>
           <TabPanel hidden={selectedTab !== "entertainment"}>
-            <BlogSections topic={sports}></BlogSections>
+            <BlogSections topic={entertainment}></BlogSections>
           </TabPanel>
           <TabPanel hidden={selectedTab !== "health"}>
-            <BlogSections topic={sports}></BlogSections>
+            <BlogSections topic={health}></BlogSections>
           </TabPanel>
         </div>
       </div>
