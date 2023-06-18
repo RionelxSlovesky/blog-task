@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Software Engineer",
+      "description": "Join our software engineering team and develop cutting-edge applications. Apply by June 30th. Joining date: August 1st.",
+      "applicationDeadline": "2023-06-30",
+      "joiningDate": "2023-08-01"
+    },
+    {
+      "title": "Civil Engineer",
+      "description": "We are seeking a skilled civil engineer to contribute to infrastructure projects. Apply by July 15th. Joining date: September 1st.",
+      "applicationDeadline": "2023-07-15",
+      "joiningDate": "2023-09-01"
+    },
+    {
+      "title": "Electrical Engineer",
+      "description": "Join our electrical engineering team and work on innovative projects. Apply by August 10th. Joining date: October 1st.",
+      "applicationDeadline": "2023-08-10",
+      "joiningDate": "2023-10-01"
+    },
+    {
+      "title": "Mechanical Engineer",
+      "description": "We are looking for a mechanical engineer to design and develop mechanical systems. Apply by September 5th. Joining date: January 1st.",
+      "applicationDeadline": "2023-09-05",
+      "joiningDate": "2024-01-01"
+    },
+    {
+      "title": "Chemical Engineer",
+      "description": "Join our chemical engineering team and contribute to research and process development. Apply by October 15th. Joining date: January 15th.",
+      "applicationDeadline": "2023-10-15",
+      "joiningDate": "2024-01-15"
+    },
+    {
+      "title": "Biomedical Engineer",
+      "description": "We are seeking a skilled biomedical engineer to work on medical device development. Apply by November 20th. Joining date: January 30th.",
+      "applicationDeadline": "2023-11-20",
+      "joiningDate": "2024-01-30"
+    },
+    {
+      "title": "Environmental Engineer",
+      "description": "Join our environmental engineering team and work on sustainability projects. Apply by December 10th. Joining date: February 15th.",
+      "applicationDeadline": "2023-12-10",
+      "joiningDate": "2024-02-15"
+    }
+]
+  

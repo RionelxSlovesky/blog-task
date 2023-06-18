@@ -6,6 +6,7 @@ import JobSections from "./JobSections/JobSections";
 
 const Jobs = () => {
   const [academics, setAcademics] = useState([]);
+  const [engineering, setEngineering] = useState([]);
   const [medical, setMedical] = useState([]);
 
   useEffect(() => {
@@ -19,6 +20,12 @@ const Jobs = () => {
       .then((res) => res.json())
       .then((data) => setMedical(data));
   }, [medical]);
+
+  useEffect(() => {
+    fetch("engineering.json")
+      .then((res) => res.json())
+      .then((data) => setEngineering(data));
+  }, [engineering]);
 
   const [selectedTab, setSelectedTab] = useTabs([
     "academics",
@@ -58,7 +65,7 @@ const Jobs = () => {
             <JobSections jobs={medical}></JobSections>
           </TabPanel>
           <TabPanel hidden={selectedTab !== "engineering"}>
-            <JobSections jobs={medical}></JobSections>
+            <JobSections jobs={engineering}></JobSections>
           </TabPanel>
         </div>
       </div>
