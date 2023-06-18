@@ -26,63 +26,63 @@ const Events = () => {
       >
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[0]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[0]?.title}</h4>
-          <p>Event Date: {events[0]?.date}</p>
-          <p>{events[0]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[0]?.date}</p>
+          <p className="text-gray-600">{events[0]?.description}</p>
         </div>
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[1]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[1]?.title}</h4>
-          <p>Event Date: {events[1]?.date}</p>
-          <p>{events[1]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[1]?.date}</p>
+          <p className="text-gray-600">{events[1]?.description}</p>
         </div>
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[2]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[2]?.title}</h4>
-          <p>Event Date: {events[2]?.date}</p>
-          <p>{events[2]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[2]?.date}</p>
+          <p className="text-gray-600">{events[2]?.description}</p>
         </div>
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[3]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[3]?.title}</h4>
-          <p>Event Date: {events[3]?.date}</p>
-          <p>{events[3]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[3]?.date}</p>
+          <p className="text-gray-600">{events[3]?.description}</p>
         </div>
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[4]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[4]?.title}</h4>
-          <p>Event Date: {events[4]?.date}</p>
-          <p>{events[4]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[4]?.date}</p>
+          <p className="text-gray-600">{events[4]?.description}</p>
         </div>
         <div className="md:min-h-96 w-80 p-4 rounded bg-gray-100 mr-5">
           <img
-            className="w-80 h-60 md:h-72 rounded object-cover"
+            className="mb-3 w-80 h-60 md:h-72 rounded object-cover"
             src={events[5]?.image}
             alt=""
           />
           <h4 className="text-3xl">{events[5]?.title}</h4>
-          <p>Event Date: {events[5]?.date}</p>
-          <p>{events[5]?.description}</p>
+          <p className="mb-2 text-sm font-semibold">Event Date: {events[5]?.date}</p>
+          <p className="text-gray-600">{events[5]?.description}</p>
         </div>
         
       </Flicking>
